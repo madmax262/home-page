@@ -12,7 +12,7 @@ python3 server.py
 - Content editor: http://127.0.0.1:8000/admin
 - Use `--port 8001` if needed.
 
-The editor saves all homepage copy, including the expertise section, plus project/about images and contact links to `content/home.json`. The introduction reuses the LinkedIn, Email, and Resume contact links. Uploads go into `assets/uploads/`. The last saved version is backed up in `.local/home.previous.json`. Refresh the public preview after saving. Image uploads are saved immediately; the content file references them only after Save changes. Empty image paths show the original design placeholders.
+The editor saves all homepage copy, including the expertise section, plus project/about images and contact links to `content/home.json`. The introduction reuses the LinkedIn and Email contact links. Uploads go into `assets/uploads/`. The last saved version is backed up in `.local/home.previous.json`. Refresh the public preview after saving. Image uploads are saved immediately; the content file references them only after Save changes. Empty image paths show the original design placeholders.
 
 The editor binds only to loopback and uses a session token for writes. It is a local authoring tool, not a production multi-user CMS.
 
@@ -24,7 +24,7 @@ The editor binds only to loopback and uses a session token for writes. It is a l
 - `assets/`: original downloaded Figma computer, decorative SVGs and menu icon. SVG blur padding, root dimensions, opacity and shape geometry are retained.
 - `#game-mount`: replace the placeholder with the game integration later. The native dialog provides focus trapping, Escape and close behavior.
 - Project cards retain distinct future URLs under `/projects/<slug>/`; ordinary activation shows a coming-soon notice until those pages are built.
-- `alexfallasresume.pdf` at the root is linked from the introduction and contact sections and included in the static export.
+- Add `alexfallasresume.pdf` at the root, or change its link in the editor. A notice is shown while the default file is missing.
 
 ## Fonts
 
