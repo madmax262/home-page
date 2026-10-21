@@ -1,0 +1,113 @@
+{
+  "site": {
+    "title": "Alex Fallas — Product Designer",
+    "description": "Principal product designer, shaping how we connect",
+    "brand": "Alex Fallas",
+    "copyright": "© Alex Fallas. Website and original content. Client and employer work, trademarks, and other third-party materials belong to their respective owners."
+  },
+  "hero": {
+    "firstName": "Alex",
+    "lastName": "Fallas",
+    "title": "Principal product designer, shaping how we connect",
+    "paragraphs": [
+      "My career has taken me from games at Zynga to communication and AI at Google, and now AWS. The thread running through it is connection: sharing a world, keeping a conversation going, making complex systems easier to understand, and finding better ways to work together.",
+      "These days, I’m exploring what happens when AI becomes a teammate. That takes some imagining, and words only get us so far. I shape product direction and stay close to the craft, giving ideas a form my team can try, question, and build on together."
+    ]
+  },
+  "projects": [
+    {
+      "slug": "android",
+      "title": "Android Phone",
+      "description": "Making AI part of the conversation, not another thing to manage.",
+      "image": "/assets/uploads/d10e8dcbaa4e440f53a5513c.png",
+      "imageAlt": ""
+    },
+    {
+      "slug": "tidalx",
+      "title": "Google X",
+      "description": "Complex systems should give operators control, not bury them in data.",
+      "image": "/assets/uploads/c4cf2df641de858114aaaf3d.png",
+      "imageAlt": ""
+    },
+    {
+      "slug": "google-area-120",
+      "title": "Google Area120",
+      "description": "What if making a video started with an idea, not an editing timeline?",
+      "image": "/assets/uploads/84433e9ba77b268e564ba717.png",
+      "imageAlt": ""
+    },
+    {
+      "slug": "google-chat",
+      "title": "Google Chat",
+      "description": "Enterprise communication needs structure. Conversations still need to feel human.",
+      "image": "/assets/uploads/6d55437a045184ea320c69b3.png",
+      "imageAlt": ""
+    },
+    {
+      "slug": "words-with-friends",
+      "title": "Words With Friends",
+      "description": "Giving a familiar word game a different kind of opponent.",
+      "image": "/assets/uploads/a5fedc9885c666cf34e3dd89.png",
+      "imageAlt": ""
+    }
+  ],
+  "expertise": {
+    "title": "What I bring to the table",
+    "items": [
+      {
+        "title": "Product direction",
+        "description": "I help teams work out what’s worth building, especially when the technology is new and the brief is still an argument. That means questioning assumptions, exploring alternatives, and giving people a direction they understand well enough to act on."
+      },
+      {
+        "title": "Interaction design & prototyping",
+        "description": "Some ideas are hard to discuss until you can try them. I work through behavior, timing, and interaction details to give teams something concrete to question. A prototype tends to make the meeting more interesting."
+      },
+      {
+        "title": "Design leadership",
+        "description": "I guide designers, work closely with engineering and research, and help leadership make decisions. I also work on the conditions around the design: who can decide, who needs to be involved, and whether anyone has actually spoken to a customer."
+      }
+    ]
+  },
+  "about": {
+    "title": "A little about me",
+    "paragraphs": [
+      "Games and music have probably taught me as much about design as anything else. A game can teach you something difficult without making it feel like homework. A good instrument lets your hands catch up with an idea. I’m interested in how those things happen.",
+      "Outside of work, I make music and spend time with my wife and our three useless cats. The cats have contributed nothing to my career, but remain unusually confident in their qualifications."
+    ],
+    "image": "/assets/uploads/6630a56ecd1a136c115ce7e2.png",
+    "imageAlt": ""
+  },
+  "contact": {
+    "title": "Get in touch",
+    "links": [
+      {
+        "label": "LinkedIn",
+        "url": "https://www.linkedin.com/in/sayhitoalex"
+      },
+      {
+        "label": "Email",
+        "url": "mailto:thealexfallas@gmail.com"
+      },
+      {
+        "label": "Resume",
+        "url": "/alexfallasresume.pdf"
+      }
+    ]
+  },
+  "ui": {
+    "menuLabel": "Open navigation",
+    "work": "Projects",
+    "about": "About me",
+    "expertise": "Expertise",
+    "contact": "Contact",
+    "gameLabel": "Open the computer game",
+    "gameTitle": "Game coming soon",
+    "gameDescription": "This space is ready for a browser-based game. Check back soon.",
+    "close": "Close",
+    "projectMessage": "This project page is coming soon.",
+    "resumeMessage": "The resume will be available soon.",
+    "skip": "Skip to projects",
+    "projectsLabel": "Selected projects",
+    "computerAlt": "Vintage computer with Product Designer on its screen"
+  }
+}

@@ -1,0 +1,6 @@
+.DS_Store
+.local/
+__pycache__/
+dist/
+/admin.html
+/admin.js
