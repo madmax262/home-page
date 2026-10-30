@@ -12,10 +12,8 @@ text('#intro-title',content.hero.title);paragraphs('.intro-body',content.hero.pa
 text('#expertise-title',content.expertise.title);
 for(const item of content.expertise.items){const article=document.createElement('article');article.className='expertise-item';const heading=document.createElement('h3');heading.textContent=item.title;const description=document.createElement('p');description.textContent=item.description;article.append(heading,description);$('.expertise-list').append(article)}
 for(const project of content.projects){
-  const link=document.createElement('a');
-  link.className='project-card';
-  link.href=`/projects/${project.slug}/`;
-  link.dataset.placeholder='true';
+  const card=document.createElement('article');
+  card.className='project-card';
   const image=document.createElement('div');
   image.className='project-image image-slot';
   imageSlot(image,project.image,project.imageAlt);
@@ -34,9 +32,8 @@ for(const project of content.projects){
   const description=document.createElement('p');
   description.textContent=project.description;
   copy.append(title,description);
-  link.append(image,copy);
-  link.addEventListener('click',event=>{event.preventDefault();notice(content.ui.projectMessage)});
-  $('#projects').append(link);
+  card.append(image,copy);
+  $('#projects').append(card);
 }
 text('#about-title',content.about.title);paragraphs('.about-body',content.about.paragraphs);imageSlot($('.about-image'),content.about.image,content.about.imageAlt);text('#contact-title',content.contact.title);
 for(const [i,item] of content.contact.links.entries()){if(i){const separator=document.createElement('span');separator.textContent='  ·  ';separator.setAttribute('aria-hidden','true');$('.contact-links').append(separator)}const link=document.createElement('a');link.textContent=item.label;link.href=item.url;if(item.url.startsWith('https:')){link.target='_blank';link.rel='noopener noreferrer'}$('.contact-links').append(link)}

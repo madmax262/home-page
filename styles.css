@@ -74,10 +74,10 @@ dialog{color:var(--text);background:var(--panel);border:1px solid #615650;border
 .project-copy h3{font-size:36px;line-height:48px;letter-spacing:-1.8px;color:var(--text);display:flex;align-items:center;white-space:normal}
 .project-arrow{display:block;flex:none;width:40px;height:40px;margin-left:8px;opacity:0;transform:translate3d(-22px,0,0);transition:opacity 500ms ease-out,transform 550ms cubic-bezier(.22,1,.36,1)}
 .project-copy p{font-size:16px;line-height:22px;margin-top:2px;color:rgb(255 243 238 / 90%)}
+/* Keep the card artwork and arrow available, but pause their hover treatment. */
+.project-card::before,.project-arrow{display:none}
 .project-card:hover,.project-card:focus-visible{background:#272321;text-decoration:none}
-.project-card:hover::before,.project-card:focus-visible::before{opacity:1}
-.project-card:hover .project-arrow,.project-card:focus-visible .project-arrow{opacity:1;transform:translate3d(0,0,0)}
-.project-card:focus-visible .project-copy h3{text-decoration:none}
+.project-card:focus-visible .project-copy h3{text-decoration:underline;text-underline-offset:5px}
 .expertise{grid-column:1/-1;padding:170px 24px 48px;display:flex;align-items:center;flex-direction:column;gap:36px;color:var(--text)}
 .expertise h2{font-size:36px;line-height:47px;font-weight:500;letter-spacing:-1.8px;text-align:center}
 .expertise-list{width:622px;max-width:100%;display:flex;flex-direction:column;gap:36px}
